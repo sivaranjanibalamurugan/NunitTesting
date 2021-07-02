@@ -11,6 +11,7 @@ namespace NunitTesting
             Console.WriteLine("2) Temperature Conversion");
             Console.WriteLine("3) Monthly Payment");
             Console.WriteLine("4) Square Root");
+            Console.WriteLine("5) Decimal to Binary");
             Console.WriteLine("Enter you choice:");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
@@ -36,7 +37,12 @@ namespace NunitTesting
                     SquareRoot SquareRoot = new SquareRoot();
                     SquareRoot.ReadInput();
                     break;
-              
+
+                case 5:
+                    DecimalToBinary DecimalToBinary = new DecimalToBinary();
+                   DecimalToBinary.ReadInput();
+                    break;
+                   
 
                 default:
                     break;
