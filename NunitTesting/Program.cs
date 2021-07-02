@@ -12,6 +12,7 @@ namespace NunitTesting
             Console.WriteLine("3) Monthly Payment");
             Console.WriteLine("4) Square Root");
             Console.WriteLine("5) Decimal to Binary");
+            Console.WriteLine("6) BinarySwap");
             Console.WriteLine("Enter you choice:");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
@@ -42,7 +43,10 @@ namespace NunitTesting
                     DecimalToBinary DecimalToBinary = new DecimalToBinary();
                    DecimalToBinary.ReadInput();
                     break;
-                   
+
+                case 6:
+                    BinarySwap.NibbleSwap();
+                    break;
 
                 default:
                     break;
