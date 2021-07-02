@@ -30,5 +30,8 @@ namespace NunitTesting
         }
     }
 }
+<<<<<<< HEAD
     
+=======
+>>>>>>> squareroot
 
